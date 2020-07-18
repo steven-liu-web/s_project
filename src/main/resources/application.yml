@@ -1,0 +1,15 @@
+server:
+  port: 8000
+  servlet:
+    context-path: /super_maket
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/mysql?useUnicode=true&characterEncoding=UTF-8&useSSL=false&&serverTimezone=GMT
+    username: root
+    password: root
+mybatis:
+  typeAliasesPackage: com.supermaket.vo
+  mapperLocations: classpath:/mybatis/*.xml
+
+        

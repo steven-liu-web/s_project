@@ -1,0 +1,6 @@
+.setting/
+target/
+
+# Editor directories and files
+.class
+.project
